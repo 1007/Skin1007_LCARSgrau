@@ -1,0 +1,79 @@
+@font-face {
+  font-family: LCARSGTJ3;
+  src: url('font/LCARS.ttf');
+}
+/* Minimale Breite der Buttons. Zentrierte Ausrichtung der Schrift */
+.ipsCategory > .container .content .rightSide > .enum > div, 
+.ipsCategory > .container .content .rightSide > .selector > div, 
+.ipsCategory > .container .extended > .textBox > div {
+	min-width: 50px;
+	text-align: center; 
+}
+
+.ipsTabPane > .navigation > .scroll > .buttons > div {
+    border-color: rgba(255, 255, 255, 0.2);
+    border-style: solid;
+    border-width: 0px 0px 0px 1px;
+    display: inline-block;
+    font-size: 25px;
+    height: 32px;
+    line-height: 32px;
+    margin: 0px;
+    opacity: 0.5;
+    padding: 0px 0px;
+    font-family: LCARSGTJ3;
+    
+    
+}
+.ipsTabPane > .navigation > .scroll > .buttons > div > .title {
+    display: inline-block;
+    float: left;
+    margin-left: 0px;
+    margin-right: 0px;
+    min-width: 140px;
+    font-family: LCARSGTJ3;
+    text-align: center;
+    background-color: rgb(125,125,125);
+
+  
+}
+
+.ipsTabPane > .navigation > .scroll > .buttons > div > .icon {
+    display: inline-block;
+    float: left;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+}
+
+.ipsTabPane > .navigation > .sub > .title {
+    display: inline-block;
+    float: left;
+    margin-left: 0px;
+    margin-right: 0px;
+    min-width: 140px;
+    text-align: center;
+    background-color: rgb(125,125,125);
+    font-family: LCARSGTJ3;
+}
+
+
+.ipsTabPane > .navigation > .sub > .icon {
+    display: inline-block;
+    float: left;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 1px;
+}
+
+
+.ipsWebFront {
+	background-color: rgb(102,102,102);
+	
+}
+
+.ipsTabPane > .navigation ,
+.ipsContentChanger > .navigation {
+	/*background-color: rgb(53,53,53); */
+	background-color: rgb(165,165,165);
+}

@@ -1,0 +1,17 @@
+{
+    "author": "Juergen Gerharz",
+    "version": "0.1",
+    "compatible": 1,
+    "url": "http:\/\/www.ip-symcon.de\/forum\/",
+    "git": "https:\/\/github.com\/1007\/1007Skin.git",
+    "icons": [
+        "Bird",
+        "Camera",
+        "Flag",
+        "Globe",
+        "Heart",
+        "Marker",
+        "Shield",
+        "Star"
+    ]
+}
