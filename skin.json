@@ -12,6 +12,8 @@
         "Heart",
         "Marker",
         "Shield",
-        "Star"
+        "Star",
+        "empty",
+        "window"
     ]
 }
