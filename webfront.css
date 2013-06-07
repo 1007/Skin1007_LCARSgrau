@@ -10,6 +10,16 @@
 	text-align: center; 
 }
 
+.ipsTabPane > .navigation > .sub {
+    float: left;
+    font-size: 26px;
+    line-height: 32px;
+    min-height: 32px;
+    padding: 2px 0px 2px 10px;
+ 
+}
+
+
 .ipsTabPane > .navigation > .scroll > .buttons > div {
     border-color: rgba(255, 255, 255, 0.2);
     border-style: solid;
@@ -41,7 +51,7 @@
 .ipsTabPane > .navigation > .scroll > .buttons > div > .icon {
     display: inline-block;
     float: left;
-    margin-left: 0px;
+    margin-left: 10px;
     margin-right: 0px;
     padding-top: 0px;
 }
@@ -74,6 +84,14 @@
 
 .ipsTabPane > .navigation ,
 .ipsContentChanger > .navigation {
-	/*background-color: rgb(53,53,53); */
-	background-color: rgb(165,165,165);
+	background-color: rgb(0,0,0);
+}
+
+.ipsTabPane > .navigation > .widgets > div > .title {
+    font-size: 25px;
+    font-family: LCARSGTJ3;
+}
+.ipsCategory > .container .content .title {
+  font-family: LCARSGTJ3;
+  font-size: 25px;
 }
