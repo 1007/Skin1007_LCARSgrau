@@ -5,7 +5,18 @@
     "url": "http:\/\/www.ip-symcon.de\/forum\/",
     "git": "https:\/\/github.com\/1007\/1007Skin.git",
     "icons": [
+        "Empty",
+        "HollowArrowLeft",
+        "HollowArrowRight",
+        "HollowArrowUp",
+        "HollowDoubleArrowDown",
+        "HollowDoubleArrowLeft",
+        "HollowDoubleArrowRight",
+        "HollowDoubleArrowUp",
         "HollowLargeArrowDown",
-        "empty"
+        "HollowLargeArrowLeft",
+        "HollowLargeArrowRight",
+        "HollowLargeArrowUp",
+        "Transparent"
     ]
 }

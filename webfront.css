@@ -10,6 +10,20 @@
 	text-align: center; 
 }
 
+
+/* Hauptschrift*/
+body {
+      background:#0A101A;
+      color:#fff;
+      font-size:25px;
+      font-family: LCARSGTJ3;
+      margin:0;
+      padding:0;
+      overflow:hidden;
+    } 
+
+
+
 .ipsTabPane > .navigation > .sub {
     float: left;
     font-size: 26px;
@@ -94,4 +108,25 @@
 .ipsCategory > .container .content .title {
   font-family: LCARSGTJ3;
   font-size: 25px;
+}
+
+/* Graphensymbol ausblenden */
+.ipsCategory>.container .content .rightSide>.graphLink {
+display: none;
+}
+
+.ipsTabPane > .navigation > .widgets > div > .title {
+ 	background-color: rgb(102,102,102);
+ 		min-width: 170px;
+ 		text-align: center; 
+}
+
+
+.ipsTabPane > .navigation > .scrollRight {
+    float: right;
+ 	background-color: rgb(102,102,102);
+}
+.ipsTabPane > .navigation > .scrollLeft {
+    float: right;
+ 	background-color: rgb(102,102,102);
 }
