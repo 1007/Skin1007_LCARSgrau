@@ -115,18 +115,57 @@ body {
 display: none;
 }
 
-.ipsTabPane > .navigation > .widgets > div > .title {
- 	background-color: rgb(102,102,102);
- 		min-width: 170px;
- 		text-align: center; 
-}
 
-
-.ipsTabPane > .navigation > .scrollRight {
+.ipsTabPane > .navigation > .widgets {
     float: right;
- 	background-color: rgb(102,102,102);
+    height: 36px;
+    padding: 2px 0px;
 }
+
+.ipsTabPane > .navigation > .widgets > div > .title {
+ 	background-color: rgb(125,125,125);
+ 		min-width: 230px;
+ 		text-align: left; 
+ 		margin-left: 0px;
+}
+
+
 .ipsTabPane > .navigation > .scrollLeft {
     float: right;
- 	background-color: rgb(102,102,102);
+  height: 32px;
+ 	background-color: rgb(125,125,125);
+ 	background-image: url("icons/HollowArrowRight.png");
+ 	padding: 0px , 10px;
+ 	border-width: 0px;
+ 	
+}
+.ipsTabPane > .navigation > .scrollRight {
+    float: right;
+  height: 32px;
+ 	/*background-color: rgb(0,0,0);*/
+ 	background-image: url("icons/HollowArrowLeft.png");
+ 	 	padding: 0px , 10px;
+ 	 	border-width: 0px;
+ 	 	margin-left: 5px;
+}
+
+.ipsTabPane > .navigation > .widgets > div > .icon {
+    display: none;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+    background-image: none; 
+    background-position: 0px center;
+    background-repeat: repeat; 
+    
+    display: inline;
+    height: auto;
+    line-height: normal;
+    margin-top: 2px;
+    vertical-align: baseline;
+    width: auto;
+    /* Hide the Text  */
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden; 
 }
