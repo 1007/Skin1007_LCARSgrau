@@ -1,0 +1,11 @@
+{
+    "author": "Juergen Gerharz",
+    "version": " 1.1",
+    "compatible": 1,
+    "url": "http:\/\/www.ip-symcon.de\/forum\/",
+    "git": "https:\/\/github.com\/1007\/Skin1007_LCARSgrau.git",
+    "icons": [
+        "Empty",
+        "Transparent"
+    ]
+}
