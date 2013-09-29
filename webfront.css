@@ -1,6 +1,10 @@
 /* Eigene Schriftart LCARS einbinden ******************************************/
 @font-face {
   font-family: LCARSGTJ3;
+  src: url('font/LCARS.eot');   /* EOT file for IE */
+} 
+@font-face {
+  font-family: LCARSGTJ3;
   src: url('font/LCARS.ttf');
 }
 
@@ -239,3 +243,4 @@ display: none;
 .ipsContentChanger > .navigation {
 	background-color: rgb(0,0,0);
 }
+
